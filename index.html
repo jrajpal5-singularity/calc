@@ -8,38 +8,45 @@
     <title>Document</title>
 </head>
 <body class="h-[100vh] bg-[#efeff2] flex justify-center items-center">
-    <section class="w-[300px] h-[500px] shadow-[0_4px_4px_30px_rgba(0,0,0,0.3) rounded-xl bg-[#22252D] overflow-hidden]"><!--class = calculator-->
+    <section class="w-[300px] h-[500px] shadow-[0_4px_4px_30px_rgba(0,0,0,0.3) rounded-xl bg-[#22252D] overflow-hidden] "><!--class = calculator-->
         <form>
-            <input type="text"  class="w-full h-[150px] rounded-[12px] text-[2rem] p-4 text-white bg-black text-end"><!--class = screen -->
+            <input type="text" class="screen w-full h-[150px] rounded-[12px] text-[2rem] p-4 text-white bg-black text-end pointer-events-none"><!--class = screen -->
         </form>
-        <div>
-            <button type="button" class="bg-yellow-300" data-num="*">*</button><!--class = btn btn-yellow -->
-            <button type="button" class="bg-yellow-300" data-num="/">/</button><!--class = btn btn-yellow -->
-            <button type="button" class="bg-yellow-300" data-num="-">-</button><!--class = btn btn-yellow -->
-            <button type="button" class="bg-yellow-300" data-num="+">+</button><!--class = btn btn-yellow -->
-            <br>
-            <button type="button" class="bg-gray-400" data-num="9">9</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num="8">8</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num="7">7</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num="6">6</button><!--class = btn btn-gray -->
-            <br>
-            <button type="button" class="bg-gray-400" data-num="5">5</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num="4">4</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num="3">3</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num="2">2</button><!--class = btn btn-gray -->
-            <br>
-            <button type="button" class="bg-gray-400" data-num="1">1</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num="0">0</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-gray-400" data-num=".">.</button><!--class = btn btn-gray -->
-            <button type="button" class="bg-green-600">=</button>
-            <br>
-            <button type="button" class="bg-red-600">C</button>
+        <div class="w-[300px] h-[350px] text-[22px] table justify-center p-5">
+            <div class="flex justify-between h-1/5">
+            <button type="button" class="btn bg-yellow-300 " data-num="*">*</button><!--class = btn btn-yellow -->
+            <button type="button" class="btn bg-yellow-300" data-num="/">/</button><!--class = btn btn-yellow -->
+            <button type="button" class="btn bg-yellow-300" data-num="-">-</button><!--class = btn btn-yellow -->
+            <button type="button" class="btn bg-yellow-300" data-num="+">+</button><!--class = btn btn-yellow -->
+        </div>
+        <div class="flex justify-between h-1/5">
+            <button type="button" class="btn bg-gray-400" data-num="9">9</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num="8">8</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num="7">7</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num="6">6</button><!--class = btn btn-gray -->
+        </div>
+            <div class="flex justify-between h-1/5">
+            <button type="button" class="btn bg-gray-400" data-num="5">5</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num="4">4</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num="3">3</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num="2">2</button><!--class = btn btn-gray -->
+        </div>
+        <div class="flex justify-between h-1/5">
+            <button type="button" class="btn bg-gray-400" data-num="1">1</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num="0">0</button><!--class = btn btn-gray -->
+            <button type="button" class="btn bg-gray-400" data-num=".">.</button><!--class = btn btn-gray -->
+            <button type="button" class="btne btn-equal bg-green-600">=</button>
+        </div>
+        <div class="flex justify-between h-1/5">
+            <button type="button" class="btne btn-clear bg-red-600">C</button>
+        </div>
+        
         </div>
 
 
 
 
-
+        <script src="app.js"></script>
     </section>
     
 </body>

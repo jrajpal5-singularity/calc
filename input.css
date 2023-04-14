@@ -1,3 +1,12 @@
 @tailwind base;
 @tailwind components;
+
+
+
+.btn {
+    @apply w-[60px] h-[60px] font-semibold rounded-full cursor-pointer flex-[0_0_22%] m-[1px_0] border-[1px] border-solid border-black justify-items-center box-content
+};
+.btne {
+    @apply w-[60px] h-[60px] font-semibold rounded-full cursor-pointer flex-[0_0_22%] m-[1px_0] border-[1px] border-solid border-black justify-items-center box-content
+};
 @tailwind utilities;
