@@ -22,3 +22,8 @@ currently i faced some issues shown below; which i may resolve in future
 2) i have used @apply function of tailwind which i wanted to avoid
 3) i want to know some better way to access tailwind docs on vs code which i have used here
 
+useful links
+1) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/eval
+2) https://stackoverflow.com/questions/38407962/when-to-use-the-script-tag-in-the-head-and-body-section-of-a-html-page
+3) https://stackoverflow.com/questions/2276021/evaluating-a-string-as-a-mathematical-expression-in-javascript
+4) https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Errors/Identifier_after_number
